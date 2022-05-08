@@ -38,41 +38,41 @@
 
 /* YOW */
 
-// var age = +prompt('Yowingizni kiriting!')
+var age = +prompt('Yowingizni kiriting!')
 
-// if(age > 0 && age <= 18) {
-//     alert('Siz yowsiz!')
-// }else if(age > 18 && age <= 50) {
-//     alert('Iwlawingiz kerak!')
-// }else if(age > 50 && age <= 60) {
-//     alert('Siz yaqinda nafaqaga cqasz!')
-// }else if(age > 60 && age < 150) {
-//     alert('Siz nafaqaxorsiz')
-// }else {
-//     console.info('Qandaydir xatolik keldi')
-// }
+if(age > 0 && age <= 18) {
+    alert('Siz yowsiz!')
+}else if(age > 18 && age <= 50) {
+    alert('Iwlawingiz kerak!')
+}else if(age > 50 && age <= 60) {
+    alert('Siz yaqinda nafaqaga cqasz!')
+}else if(age > 60 && age < 150) {
+    alert('Siz nafaqaxorsiz')
+}else {
+    console.info('Qandaydir xatolik keldi')
+}
 
 /* SOAT */
 
-// var time = +prompt('Soat neci bo\'ldi')
+var time = +prompt('Soat neci bo\'ldi')
 
-// if(time > 0 && time <= 3) {
-//     alert('soat tungi ' + time)
-// }else if(time < 3 && time <= 7) {
-//     alert('soat tongi ' + time)
-// }else if(time  < 7 && time <= 12) {
-//     alert('soat kundizgi ' + time)
-// }else if(time < 12 && time + 17) {
-//     alert('soat tuwgi ' + (time - 12))
-// }else if(time < 17 && time + 21) {
-//     alert('soat kechki ' + (time - 12))
-// }else if(time < 21 && time + 23) {
-//     alert('soat tungi ' + (time - 12))
-// }else if(time == 24|| time == 0) {
-//     alert('soat tungi 12')
-// }else {
-//     console.error('xato kiritingiz!')
-// }
+if(time > 0 && time <= 3) {
+    alert('soat tungi ' + time)
+}else if(time < 3 && time <= 7) {
+    alert('soat tongi ' + time)
+}else if(time  < 7 && time <= 12) {
+    alert('soat kundizgi ' + time)
+}else if(time < 12 && time + 17) {
+    alert('soat tuwgi ' + (time - 12))
+}else if(time < 17 && time + 21) {
+    alert('soat kechki ' + (time - 12))
+}else if(time < 21 && time + 23) {
+    alert('soat tungi ' + (time - 12))
+}else if(time == 24|| time == 0) {
+    alert('soat tungi 12')
+}else {
+    console.error('xato kiritingiz!')
+}
 
 
 /* O'rta soni topiw *********/
